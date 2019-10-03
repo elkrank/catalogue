@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+#flipbook {
+	width:900px;
+    height:550px;
+  margin: auto!important;
+  margin-top:25px!important;
+}
+#flipbook .hard{
+    background: yellowgreen;
+}
+#flipbook div img{
+    width:100%;
+    height:auto;
+
+}
+#cover{
+    background : url('img/1.jpg')  no-repeat;
+background-size: contain ;
+
+}
+
+body{
+    background : grey;
+    height:auto;
+}
+header{
+    height:75px;
+    background : black;
+    display:flex;
+    justify-content: flex-end;
+    padding-right:120px;
+}
+header img{
+    width : 45px;
+    height:auto;
+    margin-top:15px;
+    margin-right:32px;
+    
+}
+header a {
+    height:75px;
+    margin-left:16px;
+}
+nav div{
+    margin-bottom:16px!important;
+}
+footer{
+    background:black;
+    color:white;
+   height:90px;
+   position: relative;
+   bottom:-50px;
+}
+.generateur-miniature{
+    width:100%;
+    height:auto;
+}
+.miniature{
+    width:100px;
+    height:auto;
+}
